@@ -3,3 +3,4 @@ const CustomerLight = () => {
         welcomed
     </div>)
 }
+export default CustomerLight;

@@ -1,23 +1,24 @@
+// Fonction pour éviter le comportement par défaut des liens avec href='#'
 export const aTagClick = () => {
-  const aTag = document.querySelectorAll("[href='#']");
-  for (let i = 0; i < aTag.length; i++) {
-    const a = aTag[i];
+  const aTags = document.querySelectorAll("[href='#']");
+  for (let i = 0; i < aTags.length; i++) {
+    const a = aTags[i];
     a.addEventListener("click", (e) => {
       e.preventDefault();
     });
   }
 };
-// Data image
+
+// Fonction pour définir l'image de fond à partir de l'attribut data-bg-img
 export const dataImage = () => {
-  let d = document.querySelectorAll("[data-bg-img");
+  let d = document.querySelectorAll("[data-bg-img]");
   for (let i = 0; i < d.length; i++) {
     const element = d[i];
-    element.style.backgroundImage = `url(${element.getAttribute(
-      "data-bg-img"
-    )})`;
+    element.style.backgroundImage = `url(${element.getAttribute("data-bg-img")})`;
   }
 };
 
+// Fonction pour personnaliser le curseur
 export const customCursor = () => {
   var myCursor = document.querySelectorAll(".frenify-cursor"),
     hamburger = document.querySelector(".hamburger"),
@@ -39,8 +40,7 @@ export const customCursor = () => {
       let n,
         i = 0,
         o = !1;
-      (window.onmousemove = function (s) {
-        // console.log(document.querySelector(this));
+      window.onmousemove = function (s) {
         o ||
           (t.style.transform =
             "translate(" + s.clientX + "px, " + s.clientY + "px)"),
@@ -48,50 +48,47 @@ export const customCursor = () => {
             "translate(" + s.clientX + "px, " + s.clientY + "px)"),
           (n = s.clientY),
           (i = s.clientX);
-      }),
-        document.body.addEventListener(
-          "mouseenter",
-          // "a,.kura_tm_topbar .trigger, .cursor-pointer",
-          function () {
-            let a = document.querySelectorAll("a"),
-              sliders = document.querySelectorAll(
-                ".owl-carousel, .swiper-container, .cursor-link"
-              ),
-              slider = document.querySelectorAll(".modal_item");
-            e.classList.add("cursor-inner"), t.classList.add("cursor-outer");
+      };
+      document.body.addEventListener("mouseenter", function () {
+        let a = document.querySelectorAll("a"),
+          sliders = document.querySelectorAll(
+            ".owl-carousel, .swiper-container, .cursor-link"
+          ),
+          slider = document.querySelectorAll(".modal_item");
+        e.classList.add("cursor-inner"), t.classList.add("cursor-outer");
 
-            for (let i = 0; i < a.length; i++) {
-              const element = a[i];
-              mouseEvent(element);
-            }
+        for (let i = 0; i < a.length; i++) {
+          const element = a[i];
+          mouseEvent(element);
+        }
 
-            for (let i = 0; i < sliders.length; i++) {
-              const element = sliders[i];
-              element.addEventListener("mouseenter", function () {
-                e.classList.add("cursor-slider"),
-                  t.classList.add("cursor-slider");
-              });
-              element.addEventListener("mouseleave", function () {
-                e.classList.remove("cursor-slider"),
-                  t.classList.remove("cursor-slider");
-              });
-            }
-            for (let i = 0; i < slider.length; i++) {
-              const element = slider[i];
-              mouseEvent(element);
-            }
+        for (let i = 0; i < sliders.length; i++) {
+          const element = sliders[i];
+          element.addEventListener("mouseenter", function () {
+            e.classList.add("cursor-slider"),
+              t.classList.add("cursor-slider");
+          });
+          element.addEventListener("mouseleave", function () {
+            e.classList.remove("cursor-slider"),
+              t.classList.remove("cursor-slider");
+          });
+        }
+        for (let i = 0; i < slider.length; i++) {
+          const element = slider[i];
+          mouseEvent(element);
+        }
 
-            hamburger && mouseEvent(hamburger);
-            kura_tm_topbar && mouseEvent(kura_tm_topbar);
-            pointer && mouseEvent(pointer);
-          }
-        ),
-        (e.style.visibility = "visible"),
-        (t.style.visibility = "visible");
+        hamburger && mouseEvent(hamburger);
+        kura_tm_topbar && mouseEvent(kura_tm_topbar);
+        pointer && mouseEvent(pointer);
+      });
+      e.style.visibility = "visible";
+      t.style.visibility = "visible";
     }
   }
 };
 
+// Fonction pour activer un effet sticky lors du défilement de la page
 export const sticky = () => {
   let offset = window.scrollY;
   const stickys = document.querySelectorAll("body");
@@ -105,3 +102,5 @@ export const sticky = () => {
     }
   });
 };
+
+export default { aTagClick, dataImage, customCursor, sticky };
