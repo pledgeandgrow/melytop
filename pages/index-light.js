@@ -1,12 +1,11 @@
 import { useEffect } from "react";
-import About from "../src/components/About";
-import Contact from "../src/components/Contact";
-import CustomerLight from "../src/components/CustomerLight";
-import Home from "../src/components/Home";
-import News from "../src/components/News";
-import Services from "../src/components/Services";
-import Layout from "../src/layouts/Layout";
-import Mention from "../src/components/Mention";
+import About from "./About";
+import Contact from "./Contact";
+import CustomerLight from "./src/components/CustomerLight";
+import Home from "./Home";
+import News from "./News";
+import Services from "./Services";
+import Layout from "./src/layouts/Layout";
 const Index = () => {
   useEffect(() => {
     document.querySelector("body").classList.add("light");
