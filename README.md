@@ -1,13 +1,19 @@
-# Getting Started
-# First
-install node js 
-# Next,
-npm install and
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-# Open http://localhost:3000 with your browser to see the result.
+# Mon Projet
+
+## Description
+
+C'est un projet web construit avec **Next.js**, utilisant des fichiers `.js`. Il permet de créer des pages dynamiques, un routage automatique et le rendu côté serveur pour une meilleure performance.
+
+## Prérequis
+
+Avant de commencer, assurez-vous d'avoir installé les éléments suivants :
+
+- **Node.js** (version 12 ou supérieure).
+- **npm** (ou **yarn** si vous préférez).
+
+## Installation
+
+1. Clonez ce repository sur votre machine locale :
+
+   ```bash
+   git clone https://github.com/username/nom-du-repository.git
