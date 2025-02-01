@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import About from "./About";
 import Contact from "./Contact";
-import CustomerLight from "./src/components/CustomerLight";
+import Customers from './Customers'
 import Home from "./Home";
 import News from "./News";
 import Services from "./Services";
@@ -22,7 +22,7 @@ const Index = () => {
       <Services />
       {/* /Services Section */}
       {/* Customers Section */}
-      <CustomerLight />
+      <Customers />
       {/* /Customers Section */}
       {/* News Section */}
       <News />
