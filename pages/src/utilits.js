@@ -1,3 +1,5 @@
+import React from 'react';
+
 // Fonction pour éviter le comportement par défaut des liens avec href='#'
 export const aTagClick = () => {
   const aTags = document.querySelectorAll("[href='#']");
@@ -103,4 +105,9 @@ export const sticky = () => {
   });
 };
 
-export default { aTagClick, dataImage, customCursor, sticky };
+// Composant React vide pour satisfaire Next.js
+const UtilitsPage = () => {
+  return null; // Ce composant ne rend rien, il permet simplement à Next.js de valider le fichier
+};
+
+export default UtilitsPage;
