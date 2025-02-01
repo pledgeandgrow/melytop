@@ -1,4 +1,3 @@
-import About from "./About";
 import Contact from "./Contact";
 import Home from "./Home";
 import News from "./News";
@@ -6,12 +5,12 @@ import Services from "./Services";
 import Layout from "./src//layouts/Layout";
 import Social from './Social';
 import Customers from './Customers';
-import Apropos from "./Apropos1";
+import About from "./About";
 const Index = () => {
   return (
     <Layout>
       <Home />
-      <Apropos />
+      <About />
       {/* /About Section */}
       {/* Portfolio Section */}
       {/* Services Section */}
