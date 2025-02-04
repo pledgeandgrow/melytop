@@ -10,7 +10,10 @@
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
+    "cookie": "^1.0.2",
+    "cookie.js": "^7.0.1",
     "jquery": "^3.7.1",
+    "js-cookie": "^3.0.5",
     "next": "^15.1.6",
     "owl.carousel": "^2.3.4",
     "react": "^18.2.0",

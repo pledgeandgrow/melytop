@@ -158,8 +158,8 @@ sous peu.
             </h3>
             <p>Email :
             </p>
-            <a className="fn__link" href="mailto:ramoagency@gmail.com">
-              123456789@gmail.com</a>
+            <a className="fn__link" href="mailto:melissarla@yahoo.com">
+            melissarla@yahoo.com</a>
           </div>
           {/* /Contact Info */}
         </div>

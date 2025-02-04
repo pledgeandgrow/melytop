@@ -1,3 +1,9 @@
+import { MdSecurity } from "react-icons/md";
+import { MdEvent } from "react-icons/md";
+import { FaHandsHelping } from "react-icons/fa";
+import { MdAssistant } from "react-icons/md";
+import { MdFamilyRestroom } from "react-icons/md";
+
 const Services = () => {
   return (
     <section id="services">
@@ -20,6 +26,9 @@ const Services = () => {
               <li>
                 <div className="item">
                   <div className="item_left">
+                  <div className="icon_wrapper">
+                    <MdSecurity />
+                    </div>
                     <h3>Services de Garde d’Enfants</h3>
                     <p className="classe">
                     Garde à domicile pour nourrissons et enfants. <br />
@@ -36,6 +45,9 @@ const Services = () => {
               <li>
                 <div className="item">
                   <div className="item_left">
+                  <div className="icon_wrapper">
+                    <MdEvent />
+                    </div>
                     <h3>Services d’Éveil et d’Animation</h3>
                     <p>
                     Activités ludiques et éducatives (peinture, lecture, jeux). <br />
@@ -52,6 +64,9 @@ const Services = () => {
               <li>
                 <div className="item">
                   <div className="item_left">
+                  <div className="icon_wrapper">
+                    <FaHandsHelping />
+                    </div>
                     <h3>Accompagnement Périnatal et Parental</h3>
                     <p>
                     Soutien postnatal à domicile ou en maternité. <br />
@@ -61,13 +76,15 @@ const Services = () => {
                   </div>
                   <div className="item_right">
                     <p>Starts from</p>
-                    <h3>£499</h3>
+                    <h3>£299</h3>
                   </div>
                 </div>
               </li>
               <li>
                 <div className="item">
                   <div className="item_left">
+                  <div className="icon_wrapper">
+                    <MdAssistant className="icon_wrapper1" /></div>
                     <h3>Assistance en Structures Collectives</h3>
                     <p>
                     Gestion de sections en crèche ou maternité. <br />
@@ -78,6 +95,25 @@ const Services = () => {
                   <div className="item_right">
                     <p>Starts from</p>
                     <h3>£299</h3>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div className="item">
+                  <div className="item_left">
+                  <div className="icon_wrapper">
+                    <MdFamilyRestroom />
+                    </div>
+                    <h3>compagnement famille vacances  .</h3>
+                    <p>
+                    Accompagnement personnalisé pour des vacances familiales réussies.  <br />
+                    Organisation de weekends en famille sans stress. <br />
+                    Gestion complète d’anniversaires et événements privés.<br />
+                    </p>
+                  </div>
+                  <div className="item_right">
+                    <p>Starts from</p>
+                    <h3>£199</h3>
                   </div>
                 </div>
               </li>

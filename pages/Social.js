@@ -1,10 +1,9 @@
 import React from "react";
-import { FaTwitter, FaInstagram, FaPinterestP, FaBehance } from "react-icons/fa";
+import { FaFacebook, FaInstagram,FaLinkedin } from "react-icons/fa";
 const socialLinks = [
-  { id: 1, icon: <FaTwitter />, href: "https://twitter.com", className: "twitter-icon" },
+  { id: 1, icon: <FaFacebook />, href: "https://twitter.com", className: "twitter-icon" },
   { id: 2, icon: <FaInstagram />, href: "https://instagram.com", className: "instagram-icon" },
-  { id: 3, icon: <FaPinterestP />, href: "https://pinterest.com", className: "pinterest-icon" },
-  { id: 4, icon: <FaBehance />, href: "https://behance.net", className: "behance-icon" },
+  { id: 3, icon: <FaLinkedin />, href: "https://pinterest.com", className: "linkedin-icon" },
 ];
 const Social = ()=>{
   return (

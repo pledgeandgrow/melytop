@@ -28,11 +28,11 @@ const About = () => {
                   </tr>
                   <tr>
                     <th>Birthday</th>
-                    <th>4th April 1987</th>
+                    <th>14 Janvier 1985</th>
                   </tr>
                   <tr>
                     <th>Age</th>
-                    <th>37 ans</th>
+                    <th>40 ans</th>
                   </tr>
                   <tr>
                     <th>Addresse</th>
@@ -47,8 +47,8 @@ const About = () => {
                   <tr>
                     <th>Email</th>
                     <th>
-                      <a href="mailto:trendycoder.com@gmail.com">
-                        1234567890@gmail.com
+                      <a href="mailto:melissarla@yahoo.com">
+                      melissarla@yahoo.com
                       </a>
                     </th>
                   </tr>
@@ -191,21 +191,7 @@ const About = () => {
                         </p>
                       </div>
                     </li>
-                    <li>
-                      <div className="item">
-                        <div className="item_top">
-                          <h5>En PMI et en Foyer Mère-Enfant</h5>
-                          <span>( 2016 — 2011 )</span>
-                        </div>
-                        <h3>Graphic Designer</h3>
-                        <p>
-                        Soutien aux familles dans le cadre du suivi médical des enfants. <br></br>
-                        Accompagnement des mères en difficulté dans la prise en charge de leur enfant.
-                        <br></br>
-                        Organisation d’ateliers pour favoriser le lien parent-enfant.
-                        </p>
-                      </div>
-                    </li>
+                    
                   </ul>
                 </div>
                 {/* /Boxed List */}
@@ -244,20 +230,7 @@ const About = () => {
                         </p>
                       </div>
                     </li>
-                    <li>
-                      <div className="item">
-                        <div className="item_top">
-                          <h5>Clolumbia College</h5>
-                          <span>( 2007 — 2011 )</span>
-                        </div>
-                        <h3>Bachelor Degree</h3>
-                        <p>
-                          Adipisicing Lorem ipsum dolor sit amet, consectetur
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.{" "}
-                        </p>
-                      </div>
-                    </li>
+                  
                   </ul>
                 </div>
                 {/* /Boxed List */}

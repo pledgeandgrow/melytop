@@ -30,7 +30,7 @@ const Mention = () => {
       <p>Nom : Melissa</p>
       <p>Adresse : 123 Rue de la Petite Enfance, Paris, France</p>
       <p>Téléphone : +33 1 23 45 67 89</p>
-      <p>Mail : contact@melissa-services.com</p>
+      <p>Mail : melissarla@yahoo.com</p>
       <br />
       <div className="separator" />
       <br />
