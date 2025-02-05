@@ -483,8 +483,8 @@ a {
 .cookie-banner {
   width: 800px;
   height: 250px;
-  border: #987750 solid 1px;
-  background-color: #1C1C1B;
+  border: white solid 1px;
+  background-color: #9C728F;
   color: white;
   padding: 20px;
   border-radius: 10px;
@@ -499,7 +499,7 @@ a {
 
 .cookie-banner h3 {
   margin-bottom: 20px;
-  color: #987750;
+  color: #613640;
 }
 
 .cookie-banner p {
@@ -514,7 +514,7 @@ a {
 
 .accept-btn, .decline-btn {
   background-color: white;
-  color: #987750;
+  color: #613640;
   border: none;
   padding: 10px 20px;
   cursor: pointer;
@@ -525,7 +525,7 @@ a {
 }
 
 .accept-btn:hover, .decline-btn:hover {
-  background-color: #987750;
+  background-color: #613640;
   color: white;
 }
 
