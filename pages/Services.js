@@ -36,10 +36,7 @@ const Services = () => {
                     Surveillance et sécurité pour un environnement sûr et apaisant.
                     </p>
                   </div>
-                  <div className="item_right">
-                    <p>Starts from</p>
-                    <h3>£599</h3>
-                  </div>
+                  
                 </div>
               </li>
               <li>
@@ -55,10 +52,7 @@ const Services = () => {
                     Sorties éducatives (parcs, musées). <br />
                     </p>
                   </div>
-                  <div className="item_right">
-                    <p>Starts from</p>
-                    <h3>£399</h3>
-                  </div>
+                  
                 </div>
               </li>
               <li>
@@ -74,10 +68,7 @@ const Services = () => {
                     Formation aux premiers gestes de secours pour bébé. <br />
                     </p>
                   </div>
-                  <div className="item_right">
-                    <p>Starts from</p>
-                    <h3>£299</h3>
-                  </div>
+                  
                 </div>
               </li>
               <li>
@@ -92,10 +83,7 @@ const Services = () => {
                     Soutien éducatif en foyers mère-enfant. <br />
                     </p>
                   </div>
-                  <div className="item_right">
-                    <p>Starts from</p>
-                    <h3>£299</h3>
-                  </div>
+                  
                 </div>
               </li>
               <li>
@@ -104,16 +92,12 @@ const Services = () => {
                   <div className="icon_wrapper">
                     <MdFamilyRestroom />
                     </div>
-                    <h3>compagnement famille vacances  .</h3>
+                    <h3>compagnement famille vacances  </h3>
                     <p>
                     Accompagnement personnalisé pour des vacances familiales réussies.  <br />
                     Organisation de weekends en famille sans stress. <br />
                     Gestion complète d’anniversaires et événements privés.<br />
                     </p>
-                  </div>
-                  <div className="item_right">
-                    <p>Starts from</p>
-                    <h3>£199</h3>
                   </div>
                 </div>
               </li>

@@ -19,36 +19,16 @@ const CookieBanner = () => {
     };
   }, []);
 
-  const acceptCookies = async () => {
-    try {
-      await fetch('/api/login', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        }
-      });
-      console.log("Cookies acceptés");
-      setShowBanner(false);
-      document.body.style.overflow = 'auto';
-    } catch (error) {
-      console.error('Erreur:', error);
-    }
+  const acceptCookies = () => {
+    console.log("Cookies acceptés");
+    setShowBanner(false);
+    document.body.style.overflow = 'auto';
   };
 
-  const declineCookies = async () => {
-    try {
-      await fetch('/api/logout', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        }
-      });
-      console.log("Cookies refusés");
-      setShowBanner(false);
-      document.body.style.overflow = 'auto';
-    } catch (error) {
-      console.error('Erreur:', error);
-    }
+  const declineCookies = () => {
+    console.log("Cookies refusés");
+    setShowBanner(false);
+    document.body.style.overflow = 'auto';
   };
 
   if (!showBanner) {

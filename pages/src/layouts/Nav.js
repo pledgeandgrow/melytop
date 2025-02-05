@@ -125,7 +125,7 @@ const Nav = ({ close, trigger }) => {
               {" "}
               Developed by &nbsp;
               <a
-                href="#"
+                href="https://pledgeandgrow.com/"
                 target="_blank"
                 rel="noreferrer"
               >

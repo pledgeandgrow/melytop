@@ -184,14 +184,28 @@ const About = () => {
                           <h5>En Crèche</h5>
                           <span>( 2002 — Today )</span>
                         </div>
-                        <h3>Brevet d'Aptitude aux Fonctions d'Animateur</h3>
+                        <h3>Experience d'Aptitude aux Fonctions d'Animateur</h3>
                         <p>
                         Contribution au développement et à l’éveil des enfants à travers des activités adaptées. <br></br>
                         Soins d’hygiène, gestion des repas, et accueil des parents.<br></br>
                         </p>
                       </div>
                     </li>
-                    
+                    <li>
+                      <div className="item">
+                        <div className="item_top">
+                          <h5>Baby-sitter</h5>
+                          <span>( 2014 — 2019 )</span>
+                        </div>
+                        <h3>Experience en Baby-sitter</h3>
+                        <p>
+                        Encadrement et éveil des enfants à travers des activités ludiques et éducatives . <br />
+Développement d’une relation de confiance avec les enfants et les parents .<br />
+Gestion des situations conflictuelles et des comportements difficiles .<br />
+                        
+                        </p>
+                      </div>
+                    </li>
                   </ul>
                 </div>
                 {/* /Boxed List */}
@@ -206,13 +220,12 @@ const About = () => {
                       <div className="item">
                         <div className="item_top">
                           <h5>DEAP</h5>
-                          <span>( 2014 — 2017 )</span>
+                          <span>( 2005 — 2007 )</span>
                         </div>
                         <h3>Diplôme d'État d'Auxiliaire de Puériculture</h3>
                         <p>
-                          Adipisicing Lorem ipsum dolor sit amet, consectetur
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.{" "}
+                        Formation spécialisée dans l'accompagnement et les soins aux nourrissons et jeunes enfants,
+                         avec une approche axée sur le développement, l'hygiène et le bien-être infantile.
                         </p>
                       </div>
                     </li>
@@ -220,17 +233,28 @@ const About = () => {
                       <div className="item">
                         <div className="item_top">
                           <h5>BAFA</h5>
-                          <span>( 2011 — 2014 )</span>
+                          <span>( 2002 — 2004 )</span>
                         </div>
                         <h3>Brevet d'Aptitude aux Fonctions d'Animateur</h3>
                         <p>
-                          Adipisicing Lorem ipsum dolor sit amet, consectetur
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.{" "}
+                        Formation à l'animation et à l'encadrement de groupes d'enfants et d'adolescents, avec un focus sur la pédagogie,
+                         la sécurité et l'organisation d'activités ludiques et éducatives.
                         </p>
                       </div>
                     </li>
-                  
+                   
+                    <li>
+                      <div className="item">
+                        <div className="item_top">
+                          <h5>Baccalauréat Sciences Médico-Sociales</h5>
+                          <span>( 2000 — 2002 )</span>
+                        </div>
+                        <h3>Brevet d'Aptitude aux Fonctions d'Animateur</h3>
+                        <p>   Formation axée sur les sciences sanitaires et sociales, préparant aux métiers du secteur médical et social,
+ avec des connaissances en biologie, psychologie et accompagnement des publics en difficulté.
+                        </p>
+                      </div>
+                    </li>
                   </ul>
                 </div>
                 {/* /Boxed List */}
@@ -259,7 +283,7 @@ const About = () => {
                       <h3 className="progress_title">Soutien à la parentalité</h3>
                       <span
                         className="progress_percent"
-                        style={{ right: "5%" }}
+                        style={{ right: "8%" }}
                       >
                         95%
                       </span>
@@ -273,7 +297,7 @@ const About = () => {
                       <h3 className="progress_title">Gestion de l’alimentation et du sommeil</h3>
                       <span
                         className="progress_percent"
-                        style={{ right: "7%" }}
+                        style={{ right: "8%" }}
                       >
                         90%
                       </span>
@@ -287,7 +311,7 @@ const About = () => {
                       <h3 className="progress_title">Conseils sur la diversification alimentaire,</h3>
                       <span
                         className="progress_percent"
-                        style={{ right: "5%" }}
+                        style={{ right: "8%" }}
                       >
                         95%
                       </span>

@@ -1,9 +1,9 @@
 import React from "react";
-import { FaFacebook, FaInstagram,FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaWhatsapp,FaLinkedin } from "react-icons/fa";
 const socialLinks = [
-  { id: 1, icon: <FaFacebook />, href: "https://twitter.com", className: "twitter-icon" },
-  { id: 2, icon: <FaInstagram />, href: "https://instagram.com", className: "instagram-icon" },
-  { id: 3, icon: <FaLinkedin />, href: "https://pinterest.com", className: "linkedin-icon" },
+  { id: 1, icon: <FaFacebook />, href: "https://facebook.com", className: "twitter-icon" },
+  { id: 2, icon: <FaWhatsapp />, href: "https://whatsapp.com", className: "whatsapp-icon" },
+  { id: 3, icon: <FaLinkedin />, href: "https://linkedin.com", className: "linkedin-icon" },
 ];
 const Social = ()=>{
   return (

@@ -64,7 +64,7 @@ html {
   justify-content: center;
   display: flex;
   background-color: none;
-  border: #987750 solid 1px;
+  border: #613640 solid 1px;
   height: 55px;
   width: 190px;
   animation: tab_animation infinite 5s;
@@ -123,7 +123,7 @@ html {
   font-family: 'Jost', Arial, Helvetica, sans-serif;
   font-weight: 350;
   line-height: 25px;
-  color: #888;
+  color: #C9C7C7;
   text-transform: uppercase;
 }
 .social-title::after{
@@ -153,20 +153,24 @@ html {
 .twitter-icon:hover {
   color: #1DA1F2;
 }
-.instagram-icon:hover {
-  color: #E4405F;
+.whatsapp-icon:hover {
+  color: #02ff6b;
 }
+.whatsapp-icon{
+  color: #C9C7C7;
+}
+
 .twitter-icon {
-  color: #888;
+  color: #C9C7C7;
 }
 .linkedin-icon{
-  color: #888;
+  color: #C9C7C7;
 }
 .linkedin-icon:hover{
   color: #3a99ff;
 }
 .instagram-icon {
-  color: #888;
+  color: #C9C7C7;
 }
 @media (max-width: 320px) {
   .social-links {
@@ -269,11 +273,11 @@ a {
 
 .right-content a {
   text-decoration: none;
-  color: #888;
+  color: #C9C7C7;
 }
 
 .right-content a:hover {
-  border-bottom: 1px solid #888;
+  border-bottom: 1px solid #C9C7C7;
   transition: 0.3s ease;
 }
 
@@ -313,8 +317,8 @@ a {
 }
 
 .mail {
-  color: #987750;
-  border-bottom: 1px solid #987750;
+  color: #613640;
+  border-bottom: 1px solid #613640;
 }
 
 .header {
@@ -328,7 +332,7 @@ a {
 .title10 {
   font-size: 30px;
   font-weight: bold;
-  color: #987750;
+  color: #613640;
   text-transform: uppercase;
 }
 
@@ -340,7 +344,7 @@ a {
 .separator {
   width: 100%;
   height: 2px;
-  background: #777;
+  background: #FFD3D3;
   margin: 30px 0;
 }
 
@@ -589,7 +593,7 @@ a {
   height: 80px;
   border-radius: 100%;
   background-color: #ffffff;
-  border: 3px solid #987750;
+  
   align-content: center;
   font-size: 35px;
   background-repeat: no-repeat;
@@ -599,8 +603,9 @@ a {
 }
 
 .info_items .item .img-box:hover {
-  background-color: #987750;
+  background-color: #d7d3d3;
   transform: scale(1.05);
+  transition: 2s ease-in-out;
 }
 
 .info_items .item .detail-box {
@@ -614,7 +619,6 @@ a {
   padding: 0 0 15px;
   font-size: 38px;
   font-weight: 400;
-  line-height: 23px;
   position: relative;
 }
 .title2 {
@@ -659,14 +663,12 @@ a {
   height: 80px;
   font-size: 35px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  margin: 0 auto 15px;
+  
 }
-
 .icon_wrapper svg {
   font-size: 40px;
   color: #333;
 }
-
 .text_content {
   display: flex;
   flex-direction: column;
