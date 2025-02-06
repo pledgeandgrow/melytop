@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from 'react';
-
 const CookieBanner = () => {
   const [showBanner, setShowBanner] = useState(true);
   const [opacity, setOpacity] = useState(0);
-
   useEffect(() => {
     // Vérifier si l'utilisateur a déjà fait un choix
     const cookieChoice = document.cookie.includes('token');

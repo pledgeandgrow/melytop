@@ -2,7 +2,7 @@ import React from "react";
 import { FaFacebook, FaWhatsapp,FaLinkedin } from "react-icons/fa";
 const socialLinks = [
   { id: 1, icon: <FaFacebook />, href: "https://facebook.com", className: "twitter-icon" },
-  { id: 2, icon: <FaWhatsapp />, href: "https://whatsapp.com", className: "whatsapp-icon" },
+  { id: 2, icon: <FaWhatsapp />, href: "https://wa.me/33782321168", className: "whatsapp-icon" },
   { id: 3, icon: <FaLinkedin />, href: "https://linkedin.com", className: "linkedin-icon" },
 ];
 const Social = ()=>{

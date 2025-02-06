@@ -153,6 +153,20 @@ const Customers = () => {
                     <h3 className="title">Charlie</h3>
                     <h3 className="subtitle">Chef de projet marketing</h3>
                   </div>
+                  <div className="desc5">
+                    <p className="desc">
+                      “Une trés bonne experience ,  parent-enfant ont amélioré  le lien avec ma fille.”
+                    </p>
+                    <h3 className="title">Othmane</h3>
+                    <h3 className="subtitle">Directeur d'agence</h3>
+                  </div>
+                  <div className="desc5">
+                    <p className="desc">
+                      “Une bon service qu il fait !  ils m ont aidé trop pour  mes enfants  merci ”
+                    </p>
+                    <h3 className="title">Koco</h3>
+                    <h3 className="subtitle">Professeur</h3>
+                  </div>
                 </Slider>
               </div>
             </div>
