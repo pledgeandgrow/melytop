@@ -22,7 +22,7 @@ const Layout = ({ children }) => {
   return (
     <Fragment>
       <Head>
-        <title>Serenibaby</title>
+        <title>Melytop</title>
       </Head>
       <div className="resumo_fn_wrapper">
         {/* MODALBOX */}
