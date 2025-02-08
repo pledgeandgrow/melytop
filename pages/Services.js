@@ -92,7 +92,7 @@ const Services = () => {
                   <div className="icon_wrapper">
                     <MdFamilyRestroom />
                     </div>
-                    <h3>compagnement famille vacances  </h3>
+                    <h3>Acompagnement famille vacances  </h3>
                     <p>
                     Accompagnement personnalisé pour des vacances familiales réussies.  <br />
                     Organisation de weekends en famille sans stress. <br />

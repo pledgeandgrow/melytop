@@ -12,8 +12,8 @@ const Footer = () => {
       <div className="footer_content">
         <div className="container">
           <p>
-            Copyright © {new Date().getFullYear()}. All rights reserved. <br />
-            Developed by{" "}
+            Copyright ©melytop {new Date().getFullYear()}. Tous droits réservés. <br />
+            Powered by{" "}
             <a
               className="fn__link"
               href="https://pledgeandgrow.com/"

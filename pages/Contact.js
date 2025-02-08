@@ -46,14 +46,14 @@ sous peu.
               style={{ display: success ? "block" : "none" }}
             >
               <span className="contact_success">
-                Your message has been received, we will contact you soon.
+                Votre message a été reçu, nous vous contacterons bientôt.
               </span>
             </div>
             <div
               className="empty_notice"
               style={{ display: error ? "block" : "none" }}
             >
-              <span>Please Fill Required Fields!</span>
+              <span>Veuillez remplir les champs obligatoires !</span>
             </div>
             {/* */}
             <div className="items_wrap">
@@ -73,7 +73,7 @@ sous peu.
                       id="name"
                       type="text"
                     />
-                    <span className="moving_placeholder">Name *</span>
+                    <span className="moving_placeholder">Nom *</span>
                   </div>
                 </div>
                 <div className="item half">
@@ -91,7 +91,7 @@ sous peu.
                       id="email"
                       type="email"
                     />
-                    <span className="moving_placeholder">Email *</span>
+                    <span className="moving_placeholder">Mail *</span>
                   </div>
                 </div>
                 <div className="item">
@@ -109,7 +109,7 @@ sous peu.
                       name="phone"
                       type="text"
                     />
-                    <span className="moving_placeholder">Phone</span>
+                    <span className="moving_placeholder">Téléphone</span>
                   </div>
                 </div>
                 <div className="item">
@@ -148,15 +148,15 @@ sous peu.
           
           <div className="resumo_fn_contact_info">
             <p>Disponibilité :</p>
-            <h3 className="pepe">du lundi au vendredi soirée weekend </h3>
+            <h3 className="pepe">Lundi au vendredi soirée weekend </h3>
           
-            <p>Address</p>
+            <p>Addresse</p>
             <h3>Paris, Ile de France</h3>
-            <p>Phone</p>
+            <p>Téléphone</p>
             <h3>
               <a href="tel:+7068980751">(+33) 782321168</a>
             </h3>
-            <p>Email :
+            <p>Mail :
             </p>
             <a className="fn__link" href="mailto:melissarla@yahoo.com">
             melissarla@yahoo.com</a>

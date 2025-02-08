@@ -449,15 +449,15 @@ Pour les 6-8 ans : À cet âge, les enfants aiment relever des défis. Proposez 
             <div className="load_more">
               <a
                 href="#"
-                data-done="Done"
-                className={load ? "loading" : ""}
-                data-no="No more articles found"
+                data-done="Terminé"
+                className={load ? "Chargement" : ""}
+                data-no="Plus d'articles trouvés"
                 onClick={(e) => loadValueSet(e)}
                 onFocus={(e) => focusValueChange()}
               >
                 <span className="text">
                   {hiddenItem
-                    ? "Load More Articles"
+                    ? "Charger plus d'articles"
                     : focusValue
                     ? focusValue
                     : "Done"}

@@ -4,7 +4,7 @@ const PanelContent = () => {
   useEffect(() => {
     const Typed = require("typed.js");
     new Typed(".animated_title", {
-      strings: ["	Melissa", "Independant", "travail en crèche"],
+      strings: ["	Melissa", "Independant", "auxilaire de la petite enfance"],
       loop: true,
       smartBackspace: false,
       typeSpeed: 40,
@@ -32,7 +32,7 @@ const PanelContent = () => {
         <a href="#contact">
           <span className="circle" />
           <span className="text">
-          Je suis disponible pour un travail !
+            J’accompagne vos petits avec patience et amour ! 💖👶
           </span>
         </a>
       </div>

@@ -6,7 +6,7 @@ const Home = () => {
           {/* Main Title */}
           <div className="resumo_fn_main_title">
             <h3 className="subtitle">Bienvenue à </h3>
-            <h3 className="title">Auxiliaire de Puériculture Diplômée d’État</h3>
+            <h3 className="title">Melytop</h3>
             <p className="desc">
             Professionnelle de la santé et experte en petite enfance, avec 20 ans d’expérience en maternité,
              pédiatrie, crèches et accompagnement familial, je vous propose un accompagnement bienveillant

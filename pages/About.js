@@ -8,8 +8,8 @@ const About = () => {
         <div className="roww">
           {/* Main Title */}
           <div className="resumo_fn_main_title">
-            <h3 className="subtitle">A propos de moi</h3><br  />
-            <h3 className="title1">Biography</h3>
+            <h3 className="subtitle">Mon histoire</h3><br  />
+            <h3 className="title1">Biographie</h3>
             <p className="desc">
               {`Je suis auxiliaire de puériculture diplômée avec 20 ans d’expérience dans le domaine de la petite enfance.
                Mon parcours m’a conduite à travailler dans divers environnements tels que les maternités, les crèches,
@@ -23,11 +23,11 @@ const About = () => {
               <table>
                 <tbody>
                   <tr>
-                    <th>Name</th>
+                    <th>Nom</th>
                     <th>Melissa</th>
                   </tr>
                   <tr>
-                    <th>Birthday</th>
+                    <th>Date de naissance</th>
                     <th>14 Janvier 1985</th>
                   </tr>
                   <tr>
@@ -39,13 +39,13 @@ const About = () => {
                     <th>Paris, Ile de France</th>
                   </tr>
                   <tr>
-                    <th>Telephone</th>
+                    <th>Téléphone</th>
                     <th>
                       <a href="tel:+3846923442364">(+33) 782321168</a>
                     </th>
                   </tr>
                   <tr>
-                    <th>Email</th>
+                    <th>Mail</th>
                     <th>
                       <a href="mailto:melissarla@yahoo.com">
                       melissarla@yahoo.com
@@ -88,7 +88,7 @@ const About = () => {
                       <path d="M217.339,252.865c3.706,4.04,9.986,4.31,14.025,0.603c0.21-0.192,0.411-0.394,0.603-0.603l71.053-71.576   c3.462-4.617,2.527-11.166-2.09-14.629c-3.715-2.786-8.824-2.786-12.539,0l-53.29,53.29V21.42   c0-5.771-4.678-10.449-10.449-10.449s-10.449,4.678-10.449,10.449v198.531l-53.29-53.29c-4.617-3.462-11.166-2.527-14.629,2.09   c-2.786,3.715-2.786,8.824,0,12.539L217.339,252.865z" />
                     </svg>
                   </span>
-                  <span>Download CV</span>
+                  <span>Télécharger le CV</span>
                 </a>
               </div>
               {/* /Download CV Button */}
@@ -141,17 +141,17 @@ const About = () => {
               <ul>
                 <li className={activeList("tab1")}>
                   <a href="#" onClick={() => setToggleList("tab1")}>
-                    Experience
+                    Expérience
                   </a>
                 </li>
                 <li className={activeList("tab2")}>
                   <a href="#" onClick={() => setToggleList("tab2")}>
-                    Education
+                    Éducation
                   </a>
                 </li>
                 <li className={activeList("tab3")}>
                   <a href="#" onClick={() => setToggleList("tab3")}>
-                    Skills
+                    Compétences
                   </a>
                 </li>
               </ul>
@@ -168,7 +168,7 @@ const About = () => {
                       <div className="item">
                         <div className="item_top">
                           <h5>En Maternité</h5>
-                          <span>( 2001 — Today )</span>
+                          <span>( 2001 — Aujourd'hui )</span>
                         </div>
                         <h3>Experience en Maternité</h3>
                         <p>
@@ -182,9 +182,9 @@ const About = () => {
                       <div className="item">
                         <div className="item_top">
                           <h5>En Crèche</h5>
-                          <span>( 2002 — Today )</span>
+                          <span>( 2002 — Aujourd'hui )</span>
                         </div>
-                        <h3>Experience d'Aptitude aux Fonctions d'Animateur</h3>
+                        <h3>Expérience d'Aptitude aux Fonctions d'Animateur</h3>
                         <p>
                         Contribution au développement et à l’éveil des enfants à travers des activités adaptées. <br></br>
                         Soins d’hygiène, gestion des repas, et accueil des parents.<br></br>
@@ -197,7 +197,7 @@ const About = () => {
                           <h5>Baby-sitter</h5>
                           <span>( 2014 — 2019 )</span>
                         </div>
-                        <h3>Experience en Baby-sitter</h3>
+                        <h3>Expérience en Baby-sitter</h3>
                         <p>
                         Encadrement et éveil des enfants à travers des activités ludiques et éducatives . <br />
 Développement d’une relation de confiance avec les enfants et les parents .<br />
