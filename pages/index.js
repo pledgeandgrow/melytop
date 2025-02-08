@@ -7,6 +7,7 @@ import Layout from "./src//layouts/Layout";
 import Social from './Social';
 import Customers from './Customers';
 import CookieBanner from "./CookieBanner";
+import { useEffect } from "react";
 const Index = () => {
   return (
     <Layout>

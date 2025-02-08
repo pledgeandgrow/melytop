@@ -37,58 +37,7 @@ const Customers = () => {
             <h3 className="subtitle">Clients</h3>
             <h3 className="title2">Des gens heureux</h3>
           </div>
-          <div className="resumo_fn_partners">
-            <ul>
-              <li>
-                <a href="#"  rel="noreferrer" target="_blank">
-                  <img src="img/partners/1.png" alt="image" />
-                </a>
-              </li>
-              <li>
-                <a href="#"  rel="noreferrer" target="_blank">
-                  <img src="img/partners/2.png" alt="image" />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img src="img/partners/3.png" alt="image" />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noreferrer"                 
-                >
-                  <img src="img/partners/4.png" alt="image" />
-                </a>
-              </li>
-              <li>
-                <a href="#"   rel="noreferrer" target="_blank">
-                  <img src="img/partners/5.png" alt="image" />
-                </a>
-              </li>
-              <li>
-                <a href="#"  rel="noreferrer" target="_blank">
-                  <img src="img/partners/6.png" alt="image" />
-                </a>
-              </li>
-              <li>
-                <a href="#"  rel="noreferrer" target="_blank">
-                  <img src="img/partners/7.png" alt="image" />
-                </a>
-              </li>
-              <li>
-                <a href="#"  rel="noreferrer" target="_blank">
-                  <img src="img/partners/3.png" alt="image" />
-                </a>
-              </li>
-            </ul>
-          </div>
+          
           {/* /Main Title */}
 
           {/* Testimonials */}

@@ -34,10 +34,6 @@
   border-color: rgba(0, 0, 0, 0.2);
   color: #333;
 }
-#send_message:hover {
-  border-color: var(--mc);
-  color: var(--mc);
-}
 
 html {
   scroll-behavior: smooth;
@@ -64,7 +60,7 @@ html {
   justify-content: center;
   display: flex;
   background-color: none;
-  border: #613640 solid 1px;
+  border: #FFD3D3 solid 1px;
   height: 55px;
   width: 190px;
   animation: tab_animation infinite 5s;
@@ -76,7 +72,8 @@ html {
 }
 .btn-animation:hover{
   transform: scale(1.2);
-  transition: ease 2s;
+  border: #613640 solid 1px;
+  transition: ease 1.5s;
 }
 .resumo_fn_main_title .title1{
 	margin: 0;
@@ -833,4 +830,7 @@ a {
     width: 50px;
     left: 0;
   }
+}
+.a:hover{
+   border: solid 1px #613640;
 }

@@ -213,7 +213,7 @@ a:focus {
 .animated_title:after{
 	position: absolute;
     top: 0;
-    color: #44993b;
+    color: #613640;
 	animation: opacity 3s infinite;
 }
 @keyframes opacity {
@@ -273,7 +273,7 @@ a:focus {
 	width: 10px;
 	height: 10px;
 	border-radius: 100%;
-	background-color: #44993b;
+	background-color: #613640;
 	left: 0;
 	top: 50%;
 	margin-top: -5px;
@@ -290,7 +290,7 @@ a:focus {
 	transition: all 300ms ease;
 }
 .resumo_fn_right .right_bottom a:hover:before{
-	background-color: #44993b;
+	background-color: #613640;
 }
 .resumo_fn_right .right_bottom a:hover{
 	color: #FFF1F1;
@@ -401,8 +401,8 @@ a:focus {
 	left: 0;
 	width: 100%;
 	bottom: 0;
-	background-color: #ffe3f7;
-	opacity: .8;
+	background-color: #fcc2ec;
+	opacity: .6;
 	transform: translateX(-102%);
 	transition: all 1s ease;
 }
@@ -1767,8 +1767,8 @@ a:focus {
 	border: 2px solid rgba(255,255,255,.2);
 }
 .resumo_fn_contact .contact_form a:hover,.resumo_fn_contact .contact_form .a:hover{
-	border-color: var(--mc);
-	color: var(--mc);
+	border-color: #613640;
+	color: #613640;
 }
 .resumo_fn_contact .contact_form a:focus,.resumo_fn_contact .contact_form .a:focus{
 	outline: 1px dashed #444;
