@@ -148,10 +148,10 @@ sous peu.
           
           <div className="resumo_fn_contact_info">
             <p>Disponibilité :</p>
-            <h3 className="pepe">Lundi au vendredi soirée weekend </h3>
+            <h3 className="pepe">Lundi au vendredi et soirée en weekend </h3>
           
             <p>Addresse</p>
-            <h3>Paris, Ile de France</h3>
+            <h3>Paris, Île-de-France</h3>
             <p>Téléphone</p>
             <h3>
               <a href="tel:+7068980751">(+33) 782321168</a>

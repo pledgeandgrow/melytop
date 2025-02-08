@@ -21,28 +21,28 @@ const Nav = ({ close, trigger }) => {
             <ul>
               <li style={{ transitionDelay: !trigger ? "0ms" : "700ms" }}>
                 <a href="/Accueil" onClick={() => close()}>
-                  Home
+                  Accueil
                 </a>
               </li>
               <li style={{ transitionDelay: !trigger ? "0ms" : "900ms" }}>
                 <a onClick={() => close()} href="#about">
-                  About
+                  Mon histoire
                 </a>
               </li>
               
               <li style={{ transitionDelay: !trigger ? "0ms" : "1300ms" }}>
                 <a onClick={() => close()} href="#services">
-                  Services
+                  Mes Prestations
                 </a>
               </li>
               <li style={{ transitionDelay: !trigger ? "0ms" : "1500ms" }}>
                 <a onClick={() => close()} href="#customers">
-                  Customers
+                  Nos parents satisfaits
                 </a>
               </li>
               <li style={{ transitionDelay: !trigger ? "0ms" : "1700ms" }}>
                 <a onClick={() => close()} href="#news">
-                  News &amp; Tips
+                  Blog &amp; Actualités
                 </a>
               </li>
               <li style={{ transitionDelay: !trigger ? "0ms" : "1900ms" }}>
@@ -52,7 +52,7 @@ const Nav = ({ close, trigger }) => {
               </li>
               <li style={{ transitionDelay: !trigger ? "0ms" : "1900ms" }}>
                 <a onClick={() => close()} href="#social">
-                  Social
+                  Liens ultiles
                 </a>
               </li>
             </ul>

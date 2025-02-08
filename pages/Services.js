@@ -11,7 +11,7 @@ const Services = () => {
         <div className="roww">
           {/* Main Title */}
           <div className="resumo_fn_main_title">
-            <h3 className="subtitle">Mes Services</h3>
+            <h3 className="subtitle">Mes Prestations</h3>
             <h3 className="title">Service Unique adapté à Vos Attentes!</h3>
             <p className="desc">
             Faites confiance à une professionnelle dévouée pour offrir un environnement sécurisé, 

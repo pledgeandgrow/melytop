@@ -36,7 +36,7 @@ const About = () => {
                   </tr>
                   <tr>
                     <th>Addresse</th>
-                    <th>Paris, Ile de France</th>
+                    <th>Paris, Île-de-France</th>
                   </tr>
                   <tr>
                     <th>Téléphone</th>
