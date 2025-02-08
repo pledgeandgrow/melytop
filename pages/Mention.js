@@ -27,7 +27,8 @@ const Mention = () => {
       <br />
       <h2 className="section-title">1. Identification de l'éditeur et de l'hébergeur du site :</h2>
       <p><strong>Éditeur et Propriétaire :</strong></p>
-      <p>Nom : Melissa</p>
+      <p>Nom : Melissa CHEGGOURI</p>
+      <p>SIRET : En cours</p>
       <p>Adresse : 123 Rue de la Petite Enfance, Paris, France</p>
       <p>Téléphone : +33 1 23 45 67 89</p>
       <p>Mail : melissarla@yahoo.com</p>

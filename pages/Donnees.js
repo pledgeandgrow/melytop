@@ -80,7 +80,7 @@ const Donnees = () => {
           Conformément au RGPD, vous avez le droit d’accéder, rectifier, transférer,
           restreindre le traitement, ou supprimer vos informations personnelles.
           Pour exercer ces droits, veuillez nous contacter à{" "}</p>
-          <a href="mailto:contact@pledgeandgrow.com" className="mail">contact@pledgeandgrow.com</a>.
+          <a href="mailto:melissarla@yahoo.com" className="mail">melissarla@yahoo.com</a>.
         
       </div>
 
@@ -113,8 +113,8 @@ const Donnees = () => {
         <h2 className="section-title">8. Nous Contacter</h2>
         <p>
           Pour toute question ou préoccupation concernant cette politique ou vos
-          informations personnelles, veuillez contacter Pledge and Grow à{" "}
-          <a href="mailto:contact@pledgeandgrow.com" className="mail">contact@pledgeandgrow.com</a>.
+          informations personnelles, veuillez contacter Melissa CHEGGOURI à{" "}
+          <a href="mailto:melissarla@yahoo.com" className="mail">melissarla@yahoo.com</a>.
         </p>
       </div>
       <br />

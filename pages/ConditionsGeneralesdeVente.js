@@ -14,21 +14,21 @@ const ConditionsGeneralesdeVente = () => {
     <div className="container">
         <div className="header">
           <h1 className="title10">Conditions Générales de Vente</h1>
-          <p className="update-date">Dernière mise à jour : 30/01/2025</p>
+          <p className="update-date">Dernière mise à jour : 08/02/2025</p>
         </div>
 
         <div className="separator"></div>
 
         <div className="section">
           <h2 className="section-title">1. Objet</h2>
-          <p>Les présentes Conditions Générales de Vente (CGV) régissent les relations contractuelles entre [Nom de votre entreprise] et ses clients pour toute commande de services. En passant commande, le client accepte les termes des CGV.</p>
+          <p>Les présentes Conditions Générales de Vente (CGV) régissent les relations contractuelles entre Melissa CHEGGOURI et ses clients pour toute commande de services. En passant commande, le client accepte les termes des CGV.</p>
         </div>
 
         <div className="separator"></div>
 
         <div className="section">
           <h2 className="section-title">2. Services Proposés</h2>
-          <p>[Nom de votre entreprise] propose des services de programmation informatique. Les descriptions et tarifs des services sont variables en fonction du besoin du projet. Nous avons une grille tarifaire et vous conseillons les bonnes technologies nécessaires à votre projet.</p>
+          <p>Melissa CHEGGOURI propose des services de programmation informatique. Les descriptions et tarifs des services sont variables en fonction du besoin du projet. Nous avons une grille tarifaire et vous conseillons les bonnes technologies nécessaires à votre projet.</p>
         </div>
 
         <div className="separator"></div>
@@ -49,7 +49,7 @@ const ConditionsGeneralesdeVente = () => {
 
         <div className="section">
           <h2 className="section-title">5. Livraison des Services</h2>
-          <p>Les services sont fournis selon les modalités convenues avec le client. [Nom de votre entreprise] s'engage à respecter les délais convenus, sous réserve d’imprévus liés à des tiers ou à des causes de force majeure.</p>
+          <p>Les services sont fournis selon les modalités convenues avec le client. Melissa CHEGGOURI s'engage à respecter les délais convenus, sous réserve d’imprévus liés à des tiers ou à des causes de force majeure.</p>
         </div>
 
         <div className="separator"></div>
@@ -63,21 +63,21 @@ const ConditionsGeneralesdeVente = () => {
 
         <div className="section">
           <h2 className="section-title">7. Responsabilité</h2>
-          <p>[Nom de votre entreprise] ne saurait être tenue responsable des dommages indirects ou imprévus résultant de l'exécution ou de la non-exécution des services.</p>
+          <p>Melissa CHEGGOURI ne saurait être tenue responsable des dommages indirects ou imprévus résultant de l'exécution ou de la non-exécution des services.</p>
         </div>
 
         <div className="separator"></div>
 
         <div className="section">
           <h2 className="section-title">8. Litiges</h2>
-          <p>Tout litige sera soumis à la compétence des tribunaux de [Votre ville], après tentative de résolution à l’amiable.</p>
+          <p>Tout litige sera soumis à la compétence des tribunaux de Paris, après tentative de résolution à l’amiable.</p>
         </div>
 
         <div className="separator"></div>
 
         <div className="section">
           <h2 className="section-title">9. Modification des CGV/CGU</h2>
-          <p>[Nom de votre entreprise] se réserve le droit de modifier les présentes CGV/CGU à tout moment. La version applicable est celle en vigueur sur le site au moment de l’utilisation des services par le Client.</p>
+          <p>Melissa CHEGGOURI se réserve le droit de modifier les présentes CGV/CGU à tout moment. La version applicable est celle en vigueur sur le site au moment de l’utilisation des services par le Client.</p>
         </div>
 
         <div className="separator"></div>
@@ -91,7 +91,7 @@ const ConditionsGeneralesdeVente = () => {
 
         <div className="section">
           <h2 className="section-title">11. Contact</h2>
-          <p>Pour toute question ou préoccupation concernant ces conditions générales, veuillez nous contacter à l’adresse suivante : <a href="mailto:contact@votreentreprise.com" className="mail">contact@votreentreprise.com</a>.</p>
+          <p>Pour toute question ou préoccupation concernant ces conditions générales, veuillez nous contacter à l’adresse suivante : <a href="mailto:melissarla@yahoo.com" className="mail">melissarla@yahoo.com</a>.</p>
         </div>
         <br />
         <a className="btn0" href="/Accueil">Retourner sur l'accueil</a>
