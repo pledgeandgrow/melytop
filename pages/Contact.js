@@ -137,7 +137,7 @@ sous peu.
                     className="a"
                     type="submit"
                     id="send_message"
-                    value="Send Message"
+                    value="Envoyer"
                   />
                 </div>
               </div>

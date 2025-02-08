@@ -8,9 +8,9 @@ const Home = () => {
             <h3 className="subtitle">Bienvenue à </h3>
             <h3 className="title">Melytop</h3>
             <p className="desc">
-            Professionnelle de la santé et experte en petite enfance, avec 20 ans d’expérience en maternité,
-             pédiatrie, crèches et accompagnement familial, je vous propose un accompagnement bienveillant
-              et adapté à vos besoins.
+            Professionnelle de la santé et experte en petite enfance, je bénéficie de 20 ans d’expérience en maternité, pédiatrie, crèches et accompagnement familial. 
+            J’ai également travaillé pendant 10 ans à l’Aide Sociale à l’Enfance aux côtés d’une équipe pluridisciplinaire composée de pédiatres, médecins, psychiatres et infirmières. Forte de cette expérience, 
+            je vous propose un accompagnement bienveillant et adapté à vos besoins.
             </p>
             <a href="#contact" className="btn-animation"><p>Dire Bonjour</p></a>
           </div>
