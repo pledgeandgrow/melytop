@@ -25,7 +25,7 @@ const Mention = () => {
       </div>
       <div className="separator" />
       <br />
-      <h2 className="section-title">1. Identification de l'éditeur et de l'hébergeur du site :</h2>
+      <h2 className="section-title">1. Identification de l'éditeur du site :</h2>
       <p><strong>Éditeur et Propriétaire :</strong></p>
       <p>Nom : Melissa CHEGGOURI</p>
       <p>SIRET : En cours</p>
@@ -35,45 +35,30 @@ const Mention = () => {
       <br />
       <div className="separator" />
       <br />
-      <h2 className="section-title">2. Conditions générales d’utilisation :</h2>
-      <p>
-        L’utilisation du site Melissa implique l’acceptation pleine et entière
-        des conditions générales d’utilisation décrites dans notre politique.
-      </p>
+      <h2 className="section-title">2. Identification du l'hébergeur du site :</h2>
+      <p>Vercel Inc</p>
+      <p>440 N Barranca Ave #4133</p>
+      <p>Covina, CA 91723</p>
+      <p>Mail : privacy@vercel.com</p>
+      <br />
+      <p>Pour les utilisateurs de l’EEE, du Royaume-Uni et de Californie, Vercel peut collecter vos données personnelles en tant que « contrôleur de données » lorsqu'il détermine les moyens et objectifs du traitement (ex. : données des visiteurs, participants à des événements, ou clients). En tant que « processeur de données » ou « fournisseur de services », Vercel traite les données pour le compte de ses clients qui utilisent ses services d'hébergement ou ses outils d'analyse. Plus d’informations sont disponibles sur : Vercel.com</p>
       <br />
       <div className="separator" />
       <br />
-      <h2 className="section-title">3. Données personnelles :</h2>
+      <h2 className="section-title">3. Identification du réalisateur du site :</h2>
+      <p>PLEDGE AND GROW</p>
+      <p>Téléphone : +33 7 53 69 58 40</p>
+      <p>Mail : contact@pledgeandgrow.com</p>
+      <p>Site Web : pledgeandgrow.com</p>
+      <br />
+      <div className="separator" />
+      <br />
       <p>
         Conformément au RGPD, vous disposez des droits d’accès, de rectification,
         et d’opposition aux données vous concernant.
       </p>
       <br />
       <div className="separator" />
-      <br />
-      <h2 className="section-title">4. Propriété intellectuelle :</h2>
-      <br />
-      <p>
-        Les contenus de ce site (textes, images, logos) sont protégés par le
-        droit d’auteur.
-      </p>
-      <br />
-      <div className="separator" />
-      <br />
-      <h2 className="section-title">5. Limitations de responsabilité :</h2>
-      <p>
-        Melissa ne saurait être tenue responsable des dommages directs ou indirects
-        causés à l’utilisateur lors de l’accès au site.
-      </p>
-      <br />
-      <div className="separator" />
-      <br />
-      <h2 className="section-title">6. Droit applicable et attribution de juridiction :</h2>
-      <p>
-        Tout litige en relation avec l’utilisation du site est soumis au droit
-        français. En cas de litige, les tribunaux français seront seuls compétents.
-      </p>
-      <br />
       <br />
         <a className="btn0" href="/Accueil">Retourner sur l'accueil</a>
     </div>

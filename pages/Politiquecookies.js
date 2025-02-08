@@ -6,85 +6,58 @@ const PolitiqueCookies = () => {
       <Layout>
          <div className="container">
                 <div className="header">
-                    <h1 className="title10">Conditions Générales de Vente</h1>
+                    <h1 className="title10">Politiques de cookies</h1>
                     <p className="update-date">Dernière mise à jour : 30/01/2025</p>
                 </div>
 
                 <div className="separator"></div>
 
                 <div className="section">
-                    <h2 className="section-title">1. Objet</h2>
-                    <p>Les présentes Conditions Générales de Vente (CGV) régissent les relations contractuelles entre PLEDGE AND GROW et ses clients pour toute commande de services. En passant commande, le client accepte les termes des CGV.</p>
+                    <h2 className="section-title">1. Qu'est-ce qu'un cookie ?</h2>
+                    <p>Un cookie est un petit fichier texte enregistré sur votre appareil (ordinateur, tablette, smartphone…) par le navigateur lors de la visite d’un site internet. Ces cookies permettent de garantir le bon fonctionnement du site, d’améliorer votre expérience de navigation, de mesurer l’audience et peuvent aussi servir à vous présenter des publicités ciblées en fonction de vos habitudes de navigation</p>
                 </div>
 
                 <div className="separator"></div>
 
                 <div className="section">
-                    <h2 className="section-title">2. Services Proposés</h2>
-                    <p>PLEDGE AND GROW propose des services de programmation informatique. Les descriptions et tarifs des services sont variables en fonction du besoin du projet. Nous avons une grille tarifaire et conseillons les technologies nécessaires à votre projet.</p>
+                    <h2 className="section-title">2. Comment utilisons-nous les cookies ?</h2>
+                    <p>Sur le site de PLEDGE AND GROW, nous utilisons des cookies pour :</p>
+                    <li>Assurer le bon fonctionnement et la sécurité de notre site.</li>
+                    <li>Mémoriser vos préférences de navigation et personnaliser votre expérience.</li>
+                    <li>Analyser l’utilisation de notre site et améliorer nos services. </li>
+                    <li>Proposer du contenu marketing adapté à vos intérêts.</li>
                 </div>
 
                 <div className="separator"></div>
 
                 <div className="section">
-                    <h2 className="section-title">3. Commande</h2>
-                    <p>La commande est confirmée une fois que le client a signé le devis et accepté les conditions de prestation. Toute modification postérieure doit faire l’objet d’un accord écrit.</p>
+                    <h2 className="section-title">3. Consentement :</h2>
+                    <p>Nous ne vendons pas vos informations personnelles à des tiers. Cependant, nous pouvons partager vos informations personnelles dans les circonstances suivantes :</p>
+                    <li>Avec des prestataires de services tiers qui nous aident à fournir nos services.</li>
+                    <li>Avec des partenaires commerciaux lorsque cela est nécessaire pour fournir des services conjoints.</li>
+                    <li>Lorsque nous sommes tenus de le faire par la loi, une autorité gouvernementale ou pour protéger nos droits légaux. </li>
+                    <li>Dans le cadre de fusions, d’acquisitions ou de ventes d’actifs de l’entreprise, vos informations personnelles peuvent être transférées à un tiers.</li>
                 </div>
 
                 <div className="separator"></div>
 
                 <div className="section">
-                    <h2 className="section-title">4. Tarification et Paiement</h2>
-                    <p>Les prix des services sont indiqués en euros et hors taxes. Le paiement s'effectue via les moyens indiqués au moment de la commande. Les factures sont payables à la date précisée, sous peine de pénalités.</p>
+                    <h2 className="section-title">4. Sécurité et confidentialité :</h2>
+                    <p>Nous nous engageons à utiliser les cookies de manière responsable, dans le respect de votre vie privée et conformément à la législation en vigueur. Les données collectées via les cookies sont sécurisées et ne sont pas partagées avec des tiers non autorisés.</p>
                 </div>
 
                 <div className="separator"></div>
 
                 <div className="section">
-                    <h2 className="section-title">5. Livraison des Services</h2>
-                    <p>Les services sont fournis selon les modalités convenues avec le client. PLEDGE AND GROW s'engage à respecter les délais convenus, sous réserve d’imprévus liés à des tiers ou à des causes de force majeure.</p>
+                    <h2 className="section-title">5. Mise à jour de la politique de cookies :</h2>
+                    <p>Cette politique peut être mise à jour en fonction des évolutions législatives ou des modifications apportées à nos pratiques. Nous vous invitons à consulter régulièrement cette page pour rester informé. Pour toute question relative à notre utilisation des cookies, vous pouvez nous contacter directement sur melissarla@yahoo.com</p>
                 </div>
 
                 <div className="separator"></div>
 
                 <div className="section">
-                    <h2 className="section-title">6. Droit de Rétractation</h2>
-                    <p>Conformément à la législation en vigueur, le client dispose d'un délai de 14 jours pour se rétracter après la signature du contrat, sauf si l'exécution du service a commencé avec son accord.</p>
-                </div>
-
-                <div className="separator"></div>
-
-                <div className="section">
-                    <h2 className="section-title">7. Responsabilité</h2>
-                    <p>PLEDGE AND GROW ne saurait être tenue responsable des dommages indirects ou imprévus résultant de l'exécution ou de la non-exécution des services.</p>
-                </div>
-
-                <div className="separator"></div>
-
-                <div className="section">
-                    <h2 className="section-title">8. Litiges</h2>
-                    <p>Tout litige sera soumis à la compétence des tribunaux de Paris, après tentative de résolution à l’amiable.</p>
-                </div>
-
-                <div className="separator"></div>
-
-                <div className="section">
-                    <h2 className="section-title">9. Modification des CGV/CGU</h2>
-                    <p>PLEDGE AND GROW se réserve le droit de modifier les présentes CGV/CGU à tout moment. La version applicable est celle en vigueur sur le site au moment de l’utilisation des services par le Client.</p>
-                </div>
-
-                <div className="separator"></div>
-
-                <div className="section">
-                    <h2 className="section-title">10. Droit Applicable et Litiges</h2>
-                    <p>Ces conditions générales sont régies par les lois en vigueur dans votre pays de résidence. Tout litige découlant de ces conditions sera soumis à la juridiction compétente de votre région.</p>
-                </div>
-
-                <div className="separator"></div>
-
-                <div className="section">
-                    <h2 className="section-title">11. Contact</h2>
-                    <p>Pour toute question ou préoccupation concernant ces conditions générales, veuillez nous contacter à l’adresse suivante : <a href="mailto:contact@pledgeandgrow.com" className="mail">contact@pledgeandgrow.com</a>.</p>
+                    <h2 className="section-title">Nous Contacter</h2>
+                    <p>Pour toute question ou préoccupation concernant cette politique ou vos informations personnelles, veuillez contacter PLEDGE AND GROW à contact@pledgeandgrow.com.</p>
                 </div>
                 <br />
         <a className="btn0" href="/Accueil">Retourner sur l'accueil</a>
