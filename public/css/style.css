@@ -181,7 +181,7 @@ a:focus {
 	bottom: 0;
 	right: 0;
 	top: 0;
-	
+	border-radius: 10px;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1570,6 +1570,7 @@ a:focus {
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
+	border-radius: 10px;
 }
 .resumo_fn_blog_list .img_holder img{
 	margin-bottom: -24%;

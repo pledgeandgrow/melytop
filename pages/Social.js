@@ -3,7 +3,7 @@ import { FaFacebook, FaWhatsapp,FaLinkedin } from "react-icons/fa";
 const socialLinks = [
   { id: 1, icon: <FaFacebook />, href: "https://www.facebook.com/profile.php?id=100080775013022", className: "twitter-icon" },
   { id: 2, icon: <FaWhatsapp />, href: "https://wa.me/33782321168", className: "whatsapp-icon" },
-  { id: 3, icon: <FaLinkedin />, href: "https://linkedin.com", className: "linkedin-icon" },
+  { id: 3, icon: <FaLinkedin />, href: "https://www.linkedin.com/in/melissa-cheg-a8230534a/", className: "linkedin-icon" },
 ];
 const Social = ()=>{
   return (
