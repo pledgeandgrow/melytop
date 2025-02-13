@@ -35,7 +35,7 @@ const Customers = () => {
           {/* Main Title */}
           <div className="resumo_fn_main_title">
             <h3 className="subtitle">Clients</h3>
-            <h3 className="title2">Des gens heureux</h3>
+            <h3 className="title2">Des parents satifaits</h3>
           </div>
           
           {/* /Main Title */}
