@@ -18,7 +18,7 @@ const PanelContent = () => {
         <div className="border1" />
         <div className="border2" />
         <div className="img_holder">
-          <img src="img/thumb/melytopbanner.png" alt="image" className="fille"/>
+          <img src="img/thumb/melytopbanner.jpg" alt="image" className="fille"/>
           <div className="abs_img" data-bg-img="img/right.jpg" />
         </div>
         <div className="title_holder">

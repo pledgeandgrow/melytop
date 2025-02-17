@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="description" content="personal portfolio" />
         <meta property="og:title" content="Melytop" />
 <meta property="og:description" content="Personal portfolio" />
-<meta property="og:image" content="https://melytop.fr/img/thumb/square.jpg?v=2" />
+<meta property="og:image" content="https://melytop.fr/img/thumb/melytopbanner.jpg?v=2" />
 <meta property="og:image:alt" content="image" />
 <meta property="og:url" content="https://melytop.fr/" />
 <meta property="og:type" content="website" />
