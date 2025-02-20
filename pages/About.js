@@ -170,7 +170,7 @@ const About = () => {
                           <h5>En Maternité</h5>
                           <span>( 2001 — Aujourd'hui )</span>
                         </div>
-                        <h3>Experience en Maternité</h3>
+                        <h3>Maternité</h3>
                         <p>
                         Accompagnement des mamans dans les premiers soins aux nouveau-nés.<br></br>
                         Surveillance et suivi postnatal des enfants et des mères.
@@ -184,7 +184,7 @@ const About = () => {
                           <h5>En Crèche</h5>
                           <span>( 2002 — Aujourd'hui )</span>
                         </div>
-                        <h3>Expérience d'Aptitude aux Fonctions d'Animateur</h3>
+                        <h3>Aptitude aux Fonctions d'Animateur</h3>
                         <p>
                         Contribution au développement et à l’éveil des enfants à travers des activités adaptées. <br></br>
                         Soins d’hygiène, gestion des repas, et accueil des parents.<br></br>
@@ -197,7 +197,7 @@ const About = () => {
                           <h5>Baby-sitter</h5>
                           <span>( 2014 — 2019 )</span>
                         </div>
-                        <h3>Expérience en Baby-sitter</h3>
+                        <h3>Baby-sitter</h3>
                         <p>
                         Encadrement et éveil des enfants à travers des activités ludiques et éducatives . <br />
 Développement d’une relation de confiance avec les enfants et les parents .<br />
@@ -209,14 +209,14 @@ Gestion des situations conflictuelles et des comportements difficiles .<br />
                     <li>
                       <div className="item">
                         <div className="item_top">
-                          <h5>Baby-sitter</h5>
-                          <span>( 2014 — 2019 )</span>
+                          <h5>ASE</h5>
+                          <span>( 2014 — 2024 )</span>
                         </div>
-                        <h3>Expérience en Baby-sitter</h3>
+                        <h3>Aide  social a l'enfance</h3>
                         <p>
-                        Encadrement et éveil des enfants à travers des activités ludiques et éducatives . <br />
-Développement d’une relation de confiance avec les enfants et les parents .<br />
-Gestion des situations conflictuelles et des comportements difficiles .<br />
+                        Encadrement et accompagnement des enfants en situation de vulnérabilité à travers des activités ludiques et éducatives. <br />
+                        Établissement d'une relation de confiance et de soutien avec les enfants et leurs familles.<br />
+                        Gestion des situations complexes, des conflits et des comportements difficiles avec bienveillance et professionnalisme.<br />
                         
                         </p>
                       </div>
