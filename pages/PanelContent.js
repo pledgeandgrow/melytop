@@ -22,7 +22,7 @@ const PanelContent = () => {
           <div className="abs_img" data-bg-img="img/right.jpg" />
         </div>
         <div className="title_holder">
-          <h5>Salut je suis </h5>
+          <h5>Bonjour je suis </h5>
           <p className="h3">
             <span className="animated_title" />
           </p>

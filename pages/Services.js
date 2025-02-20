@@ -29,7 +29,7 @@ const Services = () => {
                   <div className="icon_wrapper">
                     <MdSecurity />
                     </div>
-                    <h3>Services de Garde d’Enfants</h3>
+                    <h3>Garde d’Enfants</h3>
                     <p className="classe">
                     Garde à domicile pour nourrissons et enfants. <br />
                     Préparation et gestion des repas équilibrés adaptés à l’âge. <br />
@@ -45,7 +45,7 @@ const Services = () => {
                   <div className="icon_wrapper">
                     <MdEvent />
                     </div>
-                    <h3>Services d’Éveil et d’Animation</h3>
+                    <h3>Éveil et d’Animation</h3>
                     <p>
                     Activités ludiques et éducatives (peinture, lecture, jeux). <br />
                     Ateliers de motricité fine et globale. <br />
@@ -78,7 +78,7 @@ const Services = () => {
                     <MdAssistant className="icon_wrapper1" /></div>
                     <h3>Assistance en Structures Collectives</h3>
                     <p>
-                    Gestion de sections en crèche ou maternité. <br />
+                    Coaching personel en micro-crèche. <br />
                     Organisation d’événements collectifs (fêtes, spectacles). <br />
                     Soutien éducatif en foyers mère-enfant. <br />
                     </p>

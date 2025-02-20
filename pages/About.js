@@ -206,6 +206,21 @@ Gestion des situations conflictuelles et des comportements difficiles .<br />
                         </p>
                       </div>
                     </li>
+                    <li>
+                      <div className="item">
+                        <div className="item_top">
+                          <h5>Baby-sitter</h5>
+                          <span>( 2014 — 2019 )</span>
+                        </div>
+                        <h3>Expérience en Baby-sitter</h3>
+                        <p>
+                        Encadrement et éveil des enfants à travers des activités ludiques et éducatives . <br />
+Développement d’une relation de confiance avec les enfants et les parents .<br />
+Gestion des situations conflictuelles et des comportements difficiles .<br />
+                        
+                        </p>
+                      </div>
+                    </li>
                   </ul>
                 </div>
                 {/* /Boxed List */}
