@@ -7,7 +7,7 @@ const PolitiqueCookies = () => {
          <div className="container">
                 <div className="header">
                     <h1 className="title10">Politiques de cookies</h1>
-                    <p className="update-date">Dernière mise à jour : 30/01/2025</p>
+                    <p className="update-date">Dernière mise à jour : 24/02/2025</p>
                 </div>
 
                 <div className="separator"></div>
@@ -21,7 +21,7 @@ const PolitiqueCookies = () => {
 
                 <div className="section">
                     <h2 className="section-title">2. Comment utilisons-nous les cookies ?</h2>
-                    <p>Sur le site de PLEDGE AND GROW, nous utilisons des cookies pour :</p>
+                    <p>Sur le site de Melytop, nous utilisons des cookies pour :</p>
                     <li>Assurer le bon fonctionnement et la sécurité de notre site.</li>
                     <li>Mémoriser vos préférences de navigation et personnaliser votre expérience.</li>
                     <li>Analyser l’utilisation de notre site et améliorer nos services. </li>
@@ -57,7 +57,7 @@ const PolitiqueCookies = () => {
 
                 <div className="section">
                     <h2 className="section-title">Nous Contacter</h2>
-                    <p>Pour toute question ou préoccupation concernant cette politique ou vos informations personnelles, veuillez contacter PLEDGE AND GROW à contact@pledgeandgrow.com.</p>
+                    <p>Pour toute question ou préoccupation concernant cette politique ou vos informations personnelles, veuillez contacter PLEDGE AND GROW à melissarla@yahoo.com.</p>
                 </div>
                 <br />
         <a className="btn0" href="/Accueil">Retourner sur l'accueil</a>

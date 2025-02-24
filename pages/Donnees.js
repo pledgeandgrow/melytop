@@ -8,7 +8,7 @@ const Donnees = () => {
       {/* Header */}
       <div className="header">
         <h1 className="title10">Politique de Confidentialité</h1>
-        <p className="update-date">Dernière mise à jour : 30/01/2025</p>
+        <p className="update-date">Dernière mise à jour : 24/02/2025</p>
       {/* Introduction */}
       <p className="intro">
         La protection de vos données personnelles est une priorité. Cette

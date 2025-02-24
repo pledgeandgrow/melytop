@@ -14,7 +14,7 @@ const Mention = () => {
       <div className="header">
         <br /> <br/>
         <h1 className="title10">Mentions Légales</h1>
-        <p className="update-date">Dernière mise à jour : 30/01/2025</p> <br />
+        <p className="update-date">Dernière mise à jour : 24/02/2025</p> <br />
         <p className="intro">
           Bienvenue sur la page des mentions légales de Melissa. Nous nous engageons
           à la transparence et au respect des réglementations. Cette section présente
@@ -28,8 +28,10 @@ const Mention = () => {
       <h2 className="section-title">1. Identification de l'éditeur du site :</h2>
       <p><strong>Éditeur et Propriétaire :</strong></p>
       <p>Nom : Melissa CHEGGOURI</p>
-      <p>SIRET : En cours</p>
-      <p>Adresse : 123 Rue de la Petite Enfance, Paris, France</p>
+      <p>Statut : Entrepreneur individuelle</p>
+      <p>Adresse : 25 ALLEE DES DAMADES, 92000, Nanterre</p>
+      <p>SIRET : 941 215 238 00010</p>
+      <p>Code Naf : 88.91A - Accueil de jeunes enfants</p>
       <p>Téléphone : +33 1 23 45 67 89</p>
       <p>Mail : melissarla@yahoo.com</p>
       <br />
@@ -48,7 +50,7 @@ const Mention = () => {
       <h2 className="section-title">3. Identification du réalisateur du site :</h2>
       <p>PLEDGE AND GROW</p>
       <p>Téléphone : +33 7 53 69 58 40</p>
-      <p>Mail : contact@pledgeandgrow.com</p>
+      <p>Mail : pledgeandgrow@gmail.com</p>
       <p>Site Web : pledgeandgrow.com</p>
       <br />
       <div className="separator" />
