@@ -48,7 +48,7 @@ const News = () => {
                   data-index={1}
                 >
                   <div className="img_holder">
-                    <img src="img/thumb/square.jpg" alt="image" />
+                    <img src="img/thumb/square1.jpg" alt="image" />
                     <div className="abs_img" data-bg-img="img/blog/1.jpg" />
                   </div>
                   <div className="title_holder">

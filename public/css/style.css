@@ -130,7 +130,7 @@ a:focus {
 .resumo_fn_right .right_in{
 	position: relative;
 	width: 100%;
-	padding: 100px 16%;
+	padding: 100px 24%;
 }
 .resumo_fn_right .title_holder,
 .resumo_fn_right .img_holder{
@@ -1575,6 +1575,7 @@ a:focus {
 .resumo_fn_blog_list .img_holder img{
 	margin-bottom: -24%;
 	min-width: 100%;
+	height: 350px;
 	opacity: 0 !important;
 }
 .resumo_fn_blog_list .title_holder{
@@ -2174,7 +2175,7 @@ a:focus {
 	.resumo_fn_navigation{width: 100%;}
 	.resumo_fn_right .right_in{height: auto !important;}
 	.resumo_fn_left{min-width: 100%;min-height: inherit;width: 100%;}
-	.resumo_fn_right .right_in{padding: 100px 20%;}
+	.resumo_fn_right .right_in{padding: 600px 20%;}
 	
 	#home{padding-top: 50px;min-height: inherit;padding-bottom: 0;}
 	#about{padding-top: 150px;}
